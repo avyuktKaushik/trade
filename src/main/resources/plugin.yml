@@ -1,0 +1,17 @@
+name: OpTrade
+version: '${version}'
+main: me.optrade.OpTradePlugin
+api-version: '1.21'
+description: Op-started trade GUI with a two-sided accept and countdown.
+author: avyukt
+
+commands:
+  trade:
+    description: Open a trade GUI between you and another player.
+    usage: /trade <player>
+    permission: optrade.use
+
+permissions:
+  optrade.use:
+    description: Allows starting trades with /trade.
+    default: op

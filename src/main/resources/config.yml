@@ -1,0 +1,23 @@
+# OpTrade config — all messages use MiniMessage formatting (https://webui.advntr.dev/)
+
+# Seconds between both players accepting and the trade going through.
+countdown-seconds: 5
+
+gui-title: "<dark_gray>Trade: <gold><left></gold> ⇄ <gold><right></gold>"
+
+messages:
+  prefix: "<gold>[Trade]</gold> "
+  usage: "<gray>Usage: <yellow>/trade <player>"
+  players-only: "<red>Only players can use this command."
+  not-found: "<red>That player isn't online."
+  self: "<red>You can't trade with yourself."
+  busy: "<red><player> is already in a trade."
+  you-busy: "<red>You're already in a trade."
+  opened: "<green>Trade opened with <yellow><player></yellow>. Put your items on your side and click accept."
+  accepted: "<yellow><player></yellow> <green>accepted the trade."
+  unaccepted: "<yellow><player></yellow> <red>took back their accept."
+  countdown-started: "<green>Both players accepted — trade completes in <yellow><seconds></yellow>s. Changing any item cancels it."
+  changed: "<red>Items changed — accepts have been reset."
+  cancelled: "<red>Trade cancelled: <reason>"
+  completed: "<green>Trade complete!"
+  inventory-full: "<yellow>Your inventory was full, so some items were dropped at your feet."
